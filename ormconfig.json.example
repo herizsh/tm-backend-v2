@@ -1,0 +1,27 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "heriganteng",
+    "password": "Doughnut3942",
+    "database": "tempatmagang",
+    "synchronize": false,
+    "migrationsRun": true,
+    "logging": true,
+    "entities": ["dist/entity/**/*.js"],
+    "migrations": ["dist/migration/**/*.js"],
+    "subscribers": ["dist/subscriber/**/*.js"],
+    "cli": {
+        "entitiesDir": "src/entity",
+        "migrationsDir": "src/migration",
+        "subscribersDir": "src/subscriber"
+    },
+    "cache": {
+        "type": "redis",
+        "duration": 30000,
+        "options": {
+            "host": "localhost",
+            "port": 6379
+        }
+    }
+}
