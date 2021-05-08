@@ -32,7 +32,7 @@
     "pg": "^7.17.1",
     "redis": "^2.8.0",
     "swagger-ui-express": "^4.1.2",
-    "typeorm": "^0.2.22"
+    "typeorm": "^0.2.25"
   },
   "devDependencies": {
     "reflect-metadata": "^0.1.13",
